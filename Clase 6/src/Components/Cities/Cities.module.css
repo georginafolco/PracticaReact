@@ -1,0 +1,17 @@
+.firstLevel{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    align-items: center;
+}
+
+.secondLevel{
+    margin-top: 0px;
+}
+
+.cities{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 6px;
+}

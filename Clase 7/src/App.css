@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual tamaño */
+  grid-gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.principalFont{
+  font-family: 'Lobster', cursive;
+} 
+
+.potion-container {
+  margin-top: 60px;
+  width: 400px;
+  background-color: ghostwhite;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: fit-content;
+  padding-bottom: inherit;
+  border: 2px solid #800060;
+  display: flex;
+  display: inline-flex;
+}
+
+.potion-liquid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #9b59b6;
+  transition: height 0.5s ease;
+}
+
+.h3{
+  margin-bottom: 10px;
+}
+
+.mssg{
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #666666;
+}
